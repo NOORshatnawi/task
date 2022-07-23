@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF2F2;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFA1A1;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a:hover {
+  background-color: #E8A0BF;
+  color: #FF7396;
+  
+}
+
+.topnav a.active {
+  background-color: #FFD59E;
+  color: white;
+}
+.search
+{
+  float: right;
+  margin: 12px;
+}
+.parg
+{
+
+text-align:right;
+width: 239px;
+margin-left:0%;
+font-style:normal;
+color: #F190B7;
+height: 10%;
+
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  text-align: left;
+  height: 100%;
+  
+}
+.red-star {
+  color: red;
+}
+
+.wrapper {
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+  background-size: contain !important;
+  background: url('ll.png.webp') top center no-repeat;
+  margin: 5% auto;  
+}
+.wrapper:after {
+  padding-top: 75%;
+  /* this llama image is 800x600 so set the padding top % to match 800/600 = .75 */
+  display: block;
+  content: '';
+}
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #C65D7B;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+
+/* Drop downlist*/
